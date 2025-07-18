@@ -18,47 +18,9 @@ What makes the experience even more powerful is the seamless integration of SQL-
 As for the insights? They’re game-changing. Offices in the USA and France outperformed others in profit margins. Customers in Spain and the US contributed the most to payments. Certain product lines dominated the revenue charts, while others showed seasonal patterns worth leveraging. The data even revealed a clear growth trajectory in Axon’s performance post-2003—hinting at successful expansion strategies.
 
 More than just visuals, this BI system gives Axon’s decision-makers a tool to act faster, think smarter, and see clearer. Whether it’s the CFO planning next quarter’s strategy or a regional manager reviewing sales trends, every view tells a story—and every chart empowers action.
-Customers – Contact details, credit limits, locations
-Products – SKUs, price, stock quantity
-Orders & Order Details – Dates, quantities, revenue
-Payments – Amount paid, dates, customer ID
-Employees & Offices – Staff details and office locations
-Schema followed: Snowflake schema due to table dependencies
 
-🧼 Data Preparation Process:
-Connected Power BI to MySQL database
-Removed null columns, merged and cleaned categorical variables
-Converted data types and dropped irrelevant columns
-Ensured schema relationships for proper joins and slicing
 
-📈 Dashboard Highlights:
-Home Page:
 
-Office-wise sales and profit summary
-Net profit trend over time
-Product & Order Analysis Page:
-Top 5 products by quantity
-Monthly sales trend by product
-Order value and count distribution
-Customer Analysis Page:
-Top 10 paying customers
-Average credit limit and payment trends
-Country-wise customer segmentation
-All pages include interactive slicers (by year, product line, and country).
-
-🧮 SQL Analytics Performed:
-Top 5 customers by credit limit
-Top 5 orders by total revenue
-Customers with highest order counts
-Most ordered products by quantity
-Top 10 customers by total payment amount
-Monthly trend of sales and order volume
-
-📊 Key Insights:
-Q1 sales in 2003–2004 were low but improved steadily each year.
-Offices in the USA and France showed consistently high profitability.
-A significant increase in order counts and net profit margin over time.
-Customers from USA and Spain made the highest payments overall.
 
 ✅ Recommendations:
 Perform deeper seasonal analysis of product lines for better inventory planning.
